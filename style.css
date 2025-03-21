@@ -1,13 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 body{
     color: white;
     background-color: black;
+    /* padding: 6px; */
 }
 
 .left{ 
     width: 25vw;
+    padding: 17px;
 }
 
 .right{
     width: 75vw;
+    /* padding: 10px; */
 }
 
+.home ul li{
+    list-style: none;
+    /* width: 34px; */
+    display: flex;
+    gap: 10px;
+    /* padding: 10px;
+    margin: 10px; */
+}
